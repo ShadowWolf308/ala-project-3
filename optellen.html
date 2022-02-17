@@ -16,7 +16,7 @@
     <meta name="description" content="">
 
     <!--author data-->
-    <meta name="author" content="Levy, tom, diede, jarno, sem">
+    <meta name="author" content="Levy van der Valk">
 
     <!--search words for google-->
     <meta name="keywords" content="">
@@ -34,12 +34,18 @@
         <!--header data-->
 
     </header>
+    <form name="rekenmachine"">
+        <input type="number" name="num1" required value="0">
+        <input type="number" name="num2" required value="0">
+        <input type="button" value="bereken" onclick="(rekenmachine.ant.value = rekenmachine.num1.value + '+' + rekenmachine.num2.value) (rekenmachine.ant.value = eval(rekenmachine.ant.value))">
+        <input type="text" readonly name="ant">
+    </form>
     <footer>
         <!--footer data-->
 
     </footer>
     <!--linking a .js file-->
-    <script src="./JS/index.js" type="text/javascript"></script>
+    <script src="" type="text/javascript"></script>
 </body>
 
 </html>
