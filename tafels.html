@@ -27,7 +27,22 @@
     <!--linking a .css page-->
     <link rel="stylesheet" type="text/css" href="">
 </head>
-
+<form name="rekenmachine">
+    <input type="number" required name="num1" value="0">
+    <input type="number" required name="num2" value="0">
+    <input type="button" onclick="myFunction()">
+</form>
+<script>
+    function myFunction() {
+        document.getElementById('antwoord').innerHTML = "";
+        var x = rekenmachine.num1.value
+        var y = rekenmachine.num2.value
+        for (i=1;i<=x;i++) {
+            document.getElementById('antwoord').innerHTML += y*i + '<br>'
+        }
+    }
+</script>
+<span id="antwoord"></span>
 <body>
     <!--body data-->
     <header>
