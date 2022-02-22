@@ -34,7 +34,20 @@
         <!--header data-->
 
     </header>
-
+    <form name="rekenmachine">
+        <input type="number" required value="0" name="num1">
+        <input type="button" onclick="myFunction()">
+    </form>
+    <script>
+        function myFunction() {
+            document.getElementById('antwoord').innerHTML = "";
+            var x = rekenmachine.num1.value
+            for (i=1;i<=x;i++) {
+                document.getElementById('antwoord').innerHTML += i**2 + '<br>';
+            }
+        }
+    </script>
+    <span id="antwoord"></span>
     <footer>
         <!--footer data-->
 
