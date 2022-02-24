@@ -34,7 +34,30 @@
         <!--header data-->
 
     </header>
-
+    <form name="rekenmachine">
+        <input type="number" required name="num1" value="0">
+        <input type="button" value="bereken" onclick="myFunction()">
+    </form>
+    <script>
+        function myFunction() {
+            var d = true
+            var x = 0
+            var y = 1
+            var backup = y
+            if (rekenmachine.num1.value == 0){
+                 document.getElementById('antwoord').innerHTML = 0
+                 d = false
+            }
+            else if (rekenmachine.num1.value == 1){
+                 document.getElementById('antwoord').innerHTML = 0 + "<br>" + 1
+                 d = false
+            }
+            while (d) {
+                
+            }
+        }
+    </script>
+    <span id="antwoord"></span>
     <footer>
         <!--footer data-->
 
