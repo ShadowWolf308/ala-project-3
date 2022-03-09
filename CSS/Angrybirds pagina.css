@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body::-webkit-scrollbar {
+  width: 0.5vw;
+}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #04ff00;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+=======
+>>>>>>> 71059b0136ae2ae491a35855d26cb053701fbe41
+  
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
+  
+body::-webkit-scrollbar-thumb {
+  background-color: #04ff00;
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 71059b0136ae2ae491a35855d26cb053701fbe41
+}
+
+body {
+  font-family: 'DotGothic16', sans-serif;
+}
+  
+header {
+  background-color: #5eff5b;
+}
+  
+.logo {
+  height: 12vh;
+}
+
+.logo img {
+  width: 5vw;
+}
+
+.logo a:link, a:active, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.logo a {
+  font-size: 2.7rem;
+  color: black;
+}
+
+.navigatie_boven a {
+  font-size: 2rem;
+  margin-left: 1.4rem;
+  color: black;
+}
+  
+.navigatie_boven a:link, a:active, a:visited {
+  color: black;
+}
+  
+.navigatie_boven a:hover {
+  color: white;
+}
+  
+.item-profiel img {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 1.3vw;
+}
