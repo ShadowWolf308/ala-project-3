@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Chalkduster_400";
-    src: url('../font/Chalkduster 400.ttf');
+    src: url('../font/Chalkduster\ 400.ttf');
 }
 
 * {
@@ -10,8 +10,10 @@
     margin: 0;
 }
 
-body{
-    background-color: #06482a;
+html{
+    background-image: url("../images/green-school-boards-500x500.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 
 ul li ul {
