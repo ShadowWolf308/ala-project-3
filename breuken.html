@@ -34,7 +34,19 @@
         <!--header data-->
 
     </header>
-
+    <form name="rekenmachine"">
+        <input type="number" name="num1" required value="0">
+        <input type="button" value="bereken" onclick="myFunction()">
+    </form>
+    <span id="ant"></span>
+    <script>
+        function myFunction() {
+            for (i=1;i<=rekenmachine.num1.value;i++) {
+                var x = 1/i;
+                document.getElementById("ant").innerHTML += "1 / " + i + " = " + x + "<br>";
+            }
+        }
+    </script>
     <footer>
         <!--footer data-->
 
