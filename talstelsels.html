@@ -35,6 +35,44 @@
 
     </header>
 
+    <form name="rekenmachine">
+        <input type="txtNumber" required name="num1" value="0">
+        <input type="number" required name="num2" value="0">
+        <input type="button" onclick="myFunction()">
+        <select name="base" id="base">
+            <option value="2">Binary</option>
+            <option value="16">Hexa Decimal</option>
+            <option value="8">Octal</option>
+        </select>
+    </form>
+
+<script>
+
+    let txtNumber = document.getElementById('txtNumber');
+    let baseDDL = document.getElementById('base');
+    let convertBtn = document.getElementById('btnConvert');
+    let spanEl = document.getElementById('convertedValue');
+    
+    convertBtn.addEventListener('click', function(){
+        //Number, +, parseInt
+        let num = +txtNumber.value;
+        let base = +baseDDL.value;
+    
+        if(isNaN(num)){
+            spanEl.textContent = 'Please enter a valid number.';
+            spanEl.style.color = '#EF5350';
+        } else {
+            let convertedValue = num.toString(base);
+            spanEl.textContent = convertedValue.toUpperCase();
+            spanEl.style.color = '#81C784';
+            spanEl.style.fontWeight = 'bold';
+        }
+    
+    })
+    
+    </script>
+
+
     <footer>
         <!--footer data-->
 
