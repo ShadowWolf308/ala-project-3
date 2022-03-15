@@ -36,41 +36,25 @@
     </header>
 
     <form name="rekenmachine">
-        <input type="text" id="txtNumber">
-        
-        <select name="base" id="base">
-            <option value="2">Binary</option>
-            <option value="16">Hexa Decimal</option>
-            <option value="8">Octal</option>
+        <input type="number" required value="0" name="num1">
+        <select name="base">
+            <option value="2">Binair</option>
+            <option value="16">Hexa Decimaal</option>
+            <option value="8">Octaal</option>
         </select>
-        <button id="btnConvert">Convert</button>
+        <input type="button" value="bereken" onclick="myFunction()">
     </form>
 
-<script>
-
-let txtNumber = document.getElementById('txtNumber');
-let baseDDL = document.getElementById('base');
-let convertBtn = document.getElementById('btnConvert');
-let spanEl = document.getElementById('convertedValue');
-
-convertBtn.addEventListener('click', function(){
-    //Number, +, parseInt
-    let num = +txtNumber.value;
-    let base = +baseDDL.value;
-
-    if(isNaN(num)){
-        spanEl.textContent = 'Please enter a valid number.';
-        spanEl.style.color = '#EF5350';
-    } else {
-        let convertedValue = num.toString(base);
-        spanEl.textContent = convertedValue.toUpperCase();
-
-    }
-
-})
-    
+    <script>
+        function myFunction() {
+            let y = parseInt(rekenmachine.num1.value)
+            let x = rekenmachine.base.value
+            let z = y.toString(x)
+            document.getElementById('ant').innerHTML = z
+        }
     </script>
 
+    <span id="ant"></span>
 
     <footer>
         <!--footer data-->
