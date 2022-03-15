@@ -16,6 +16,22 @@ html{
     background-size: cover;
 }
 
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+.image {
+    width: 6%;
+    height: 6%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
 ul li ul {
     display: none;
 }
@@ -26,16 +42,35 @@ ul li:hover ul {
 
 ul{
     color: white;
+    display: inline;
 }
 
 li{
     list-style: none;
     color: white;
+    float: right;
+    height: 2%;
+    width: 2%;
+    text-align: center;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
 }
 
 a{
     color: white;
     text-decoration: none;
-    font-family: Chalkduster_400;
 }
 
+header{
+    display: inline;
+}
+
+footer{
+    background-color: #06482a;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
