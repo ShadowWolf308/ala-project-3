@@ -1,9 +1,13 @@
 @charset "utf-8";
 
-@font-face {
-    font-family: "Chalkduster_400";
-    src: url('../font/Chalkduster\ 400.ttf');
-}
+@font-face {font-family: "Chalkduster";
+    src: url("../font/bd9805cba4fdbd10e6f9d097dab9225f.eot"); /* IE9*/
+    src: url("../font/bd9805cba4fdbd10e6f9d097dab9225f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../font/bd9805cba4fdbd10e6f9d097dab9225f.woff2") format("woff2"), /* chrome、firefox */
+    url("../font/bd9805cba4fdbd10e6f9d097dab9225f.woff") format("woff"), /* chrome、firefox */
+    url("../font/bd9805cba4fdbd10e6f9d097dab9225f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../font/bd9805cba4fdbd10e6f9d097dab9225f.svg#Chalkduster") format("svg"); /* iOS 4.1- */
+  }
 
 * {
     padding: 0;
@@ -13,12 +17,23 @@
 html{
     background-image: url("../images/green-school-boards-500x500.jpeg");
     background-repeat: no-repeat, repeat;
+    width: 100%;
+    height: 100%;
     background-size: cover;
+}
+
+.complex{
+    font-family: 'Chalkduster';
+}
+
+.eenvoudig{
+    font-family: 'Chalkduster';
 }
 
 .logo {
     width: 10%;
     height: 10%;
+    float: left;
 }
 
 .image {
@@ -30,10 +45,13 @@ h1{
     color: white;
     text-align: center;
     display: inline;
+    font-family: 'Chalkduster';
 }
 
 ul li ul {
-    display: none;
+   display: none;
+   position: absolute;
+   font-family: 'Chalkduster';
 }
 
 ul li:hover ul {
@@ -43,25 +61,38 @@ ul li:hover ul {
 ul{
     color: white;
     display: inline;
+    font-family: 'Chalkduster';
 }
 
 li{
     list-style: none;
     color: white;
-    float: right;
+    float: left;
     height: 2%;
     width: 2%;
     text-align: center;
+    padding: 6%;
+    margin: 0%;
+    font-size: 30px;
+    font-family: 'Chalkduster_400';
+}
+
+ul li ul li {
+    margin: 1%;
+    font-size: 20px;
+    font-family: 'Chalkduster';
 }
 
 .dropdown{
     display: none;
     position: absolute;
+    font-family: 'Chalkduster';
 }
 
 a{
     color: white;
     text-decoration: none;
+    font-family: 'Chalkduster';
 }
 
 header{
