@@ -21,6 +21,8 @@ html {
 
 input[type="number"] {
 	width: 25%;
+	left: 5%;
+	height: 4%;
 	background-color: black;
 	color: white;
 	padding: 20px 20px;
@@ -33,7 +35,9 @@ input[type="number"] {
 }
 
 input[type="text"] {
-	width: 25%;
+	left: 5%;
+	width: 30%;
+	height: 15%;
 	background-color: black;
 	color: white;
 	padding: 14px 20px;
@@ -45,7 +49,9 @@ input[type="text"] {
 	border-radius: 25px;
 }
 input[type="button"] {
-	width: 12%;
+	left: 12%;
+	width: 15%;
+	height: 7%;
 	background-color: black;
 	color: white;
 	padding: 14px 20px;
@@ -55,4 +61,27 @@ input[type="button"] {
 	cursor: pointer;
 	opacity: 35%;
 	border-radius: 15px;
+}
+
+#ant {
+	position: absolute;
+	top: 70%;
+}
+#veld1 {
+	position: absolute;
+	top: 25%;
+}
+#veld2 {
+	position: absolute;
+	top: 40%;
+}
+#bereken1 {
+	position: absolute;
+	top: 56%;
+}
+
+.minnetje {
+	position: absolute;
+	top: 36%;
+	left: 17.5%;
 }
