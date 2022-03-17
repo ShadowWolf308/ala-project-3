@@ -22,6 +22,14 @@ html{
     background-size: cover;
 }
 
+.complex{
+    font-family: 'Chalkduster';
+}
+
+.eenvoudig{
+    font-family: 'Chalkduster';
+}
+
 .logo {
     width: 10%;
     height: 10%;
@@ -37,11 +45,13 @@ h1{
     color: white;
     text-align: center;
     display: inline;
+    font-family: 'Chalkduster';
 }
 
 ul li ul {
    display: none;
    position: absolute;
+   font-family: 'Chalkduster';
 }
 
 ul li:hover ul {
@@ -51,6 +61,7 @@ ul li:hover ul {
 ul{
     color: white;
     display: inline;
+    font-family: 'Chalkduster';
 }
 
 li{
@@ -69,17 +80,19 @@ li{
 ul li ul li {
     margin: 1%;
     font-size: 20px;
+    font-family: 'Chalkduster';
 }
 
 .dropdown{
     display: none;
     position: absolute;
-    
+    font-family: 'Chalkduster';
 }
 
 a{
     color: white;
     text-decoration: none;
+    font-family: 'Chalkduster';
 }
 
 header{
@@ -91,7 +104,4 @@ footer{
     position: absolute;
     left: 0;
     bottom: 0;
-}
-h1 {
-    font-family: 'Chalkduster';
 }
