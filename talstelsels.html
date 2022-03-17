@@ -36,8 +36,14 @@
     </header>
 
     <form name="rekenmachine">
-        <input type="number" required value="0" name="num1">
-        <select name="base">
+        <input type="text" required value="0" name="num1">
+        <select name="vanBase">
+            <option value="2">Binair</option>
+            <option value="16">Hexa Decimaal</option>
+            <option value="8">Octaal</option>
+            <option value="10">Decimaal</option>
+        </select>
+        <select name="naarBase">
             <option value="2">Binair</option>
             <option value="16">Hexa Decimaal</option>
             <option value="8">Octaal</option>
@@ -48,8 +54,9 @@
 
     <script>
         function myFunction() {
-            let y = parseInt(rekenmachine.num1.value)
-            let x = rekenmachine.base.value
+            let a = rekenmachine.vanBase.value
+            let y = parseInt(rekenmachine.num1.value, a)
+            let x = rekenmachine.naarBase.value
             let z = y.toString(x)
             document.getElementById('ant').innerHTML = z
         }
