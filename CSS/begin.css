@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Chalkduster_400";
-    src: url('../font/Chalkduster\ 400.ttf');
+    src: url('../font/Chalkduster\ 400.ttf') format('truetype');
 }
 
 * {
@@ -13,12 +13,15 @@
 html{
     background-image: url("../images/green-school-boards-500x500.jpeg");
     background-repeat: no-repeat, repeat;
+    width: 100%;
+    height: 100%;
     background-size: cover;
 }
 
 .logo {
     width: 10%;
     height: 10%;
+    float: left;
 }
 
 .image {
@@ -33,7 +36,8 @@ h1{
 }
 
 ul li ul {
-    display: none;
+   display: ;
+   position: absolute;
 }
 
 ul li:hover ul {
@@ -48,15 +52,25 @@ ul{
 li{
     list-style: none;
     color: white;
-    float: right;
+    float: left;
     height: 2%;
     width: 2%;
     text-align: center;
+    padding: 6%;
+    margin: 0%;
+    font-size: 30px;
+    font-family: 'Chalkduster_400';
+}
+
+ul li ul li {
+    margin: 1%;
+    font-size: 20px;
 }
 
 .dropdown{
     display: none;
     position: absolute;
+    
 }
 
 a{
