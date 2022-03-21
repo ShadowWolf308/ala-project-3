@@ -36,7 +36,7 @@ input[type="number"] {
 
 input[type="text"] {
 	left: 5%;
-	width: 30%;
+	width: 25%;
 	height: 15%;
 	background-color: black;
 	color: white;
@@ -82,6 +82,6 @@ input[type="button"] {
 
 .minnetje {
 	position: absolute;
-	top: 36%;
+	top: 35.3%;
 	left: 17.5%;
 }
