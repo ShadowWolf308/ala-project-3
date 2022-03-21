@@ -23,14 +23,13 @@ input[type="number"] {
 	width: 25%;
 	left: 5%;
 	height: 4%;
-	background-color: black;
+	background-color: #00000055;
 	color: white;
 	padding: 20px 20px;
 	margin: 8px 0;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	opacity: 35%;
 	border-radius: 25px;
 }
 
@@ -38,28 +37,26 @@ input[type="text"] {
 	left: 5%;
 	width: 25%;
 	height: 15%;
-	background-color: black;
+	background-color: #00000055;
 	color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	opacity: 35%;
 	border-radius: 25px;
 }
 input[type="button"] {
 	left: 12%;
 	width: 15%;
 	height: 7%;
-	background-color: black;
+	background-color: #00000055;
 	color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	opacity: 35%;
 	border-radius: 15px;
 }
 
