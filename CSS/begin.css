@@ -22,10 +22,6 @@ html{
     background-size: cover;
 }
 
-.complex{
-    font-family: 'Chalkduster';
-}
-
 .eenvoudig{
     font-family: 'Chalkduster';
 }
@@ -34,11 +30,6 @@ html{
     width: 10%;
     height: 10%;
     float: left;
-}
-
-.image {
-    width: 6%;
-    height: 6%;
 }
 
 h1{
@@ -51,6 +42,7 @@ h1{
 ul li ul {
    display: none;
    position: absolute;
+   left: 39vw;
    font-family: 'Chalkduster';
 }
 
@@ -60,7 +52,8 @@ ul li:hover ul {
 
 ul{
     color: white;
-    display: inline;
+    display: flex;
+    width: 70%;
     font-family: 'Chalkduster';
 }
 
@@ -69,7 +62,7 @@ li{
     color: white;
     float: left;
     height: 2%;
-    width: 2%;
+    width: 30%;
     text-align: center;
     padding: 6%;
     margin: 0%;
@@ -80,12 +73,14 @@ li{
 ul li ul li {
     margin: 1%;
     font-size: 20px;
+    text-align: left;
     font-family: 'Chalkduster';
 }
 
 .dropdown{
     display: none;
-    position: absolute;
+    width: 30vw;
+    height: 5vh;
     font-family: 'Chalkduster';
 }
 
@@ -95,8 +90,18 @@ a{
     font-family: 'Chalkduster';
 }
 
-header{
-    display: inline;
+.complex{
+    font-family: 'Chalkduster';
+}
+
+.complex .dropdown{
+    font-family: 'Chalkduster';
+    left: 54vw;
+}
+
+.image {
+    width: 65px;
+    float: right;
 }
 
 footer{
@@ -104,4 +109,12 @@ footer{
     position: absolute;
     left: 0;
     bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+footer h1{
+    position: absolute;
+    left: 35vw;
+    top: 10px;
 }
