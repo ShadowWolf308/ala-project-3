@@ -25,7 +25,7 @@
     <title></title>
 
     <!--linking a .css page-->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="CSS/breuken.css">
     <link rel="stylesheet" type="text/css" href="css/begin.css">
 </head>
 
@@ -71,9 +71,10 @@
         </ul> 
     </header>
     <form name="rekenmachine"">
-        <input type="number" name="num1" required value="0">
-        <input type="button" value="bereken" onclick="myFunction()">
+        <input type="number" name="num1" required value="0" id="veld1">
+        <input type="button" value="Bereken" onclick="myFunction()"id = "bereken1">
     </form>
+    <div class="minnetje"><h1>Breuken</h1></div>
     <span id="ant"></span>
     <script>
         function myFunction() {
