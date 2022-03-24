@@ -147,6 +147,9 @@ input{
 }
 
 .rekenmachine{
-    height: 100px;
-    width: 100px;
+    height: 60vh;
+    width: 60vw;
+    position: absolute;
+    left: 43vw;
+    top: 20vh;
 }
