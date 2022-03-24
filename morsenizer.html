@@ -70,7 +70,60 @@
             <li><a href="Angrybirds pagina.html">spel</a></li>
         </ul> 
     </header>
-
+    <form name="rekenmachine">
+        <input name="num1" type="text" placeholder="type hier je text in">
+        <input type="button" value="bereken" onclick="myFunction()">
+    </form>
+    <script>
+        function myFunction() {
+            document.getElementById('ant').innerHTML = ""
+            let length = rekenmachine.num1.value.length
+            for (let i = 0; i < length; i++) {
+                morse(rekenmachine.num1.value.substr(i, 1))
+            }
+        }
+        function morse(letter) {
+            if (letter == "a" || letter == "A") document.getElementById('ant').innerHTML += " .- "
+            if (letter == "b" || letter == "B") document.getElementById('ant').innerHTML += " -... "
+            if (letter == "c" || letter == "C") document.getElementById('ant').innerHTML += " -.-. "
+            if (letter == "d" || letter == "D") document.getElementById('ant').innerHTML += " -.. "
+            if (letter == "e" || letter == "E") document.getElementById('ant').innerHTML += " --. "
+            if (letter == "f" || letter == "F") document.getElementById('ant').innerHTML += " .... "
+            if (letter == "g" || letter == "G") document.getElementById('ant').innerHTML += " .. "
+            if (letter == "h" || letter == "H") document.getElementById('ant').innerHTML += " .--- "
+            if (letter == "i" || letter == "I") document.getElementById('ant').innerHTML += " -.- "
+            if (letter == "j" || letter == "J") document.getElementById('ant').innerHTML += " .-.. "
+            if (letter == "k" || letter == "K") document.getElementById('ant').innerHTML += " -- "
+            if (letter == "l" || letter == "L") document.getElementById('ant').innerHTML += " -. "
+            if (letter == "m" || letter == "M") document.getElementById('ant').innerHTML += " -- "
+            if (letter == "n" || letter == "N") document.getElementById('ant').innerHTML += " -. "
+            if (letter == "o" || letter == "O") document.getElementById('ant').innerHTML += " --- "
+            if (letter == "p" || letter == "P") document.getElementById('ant').innerHTML += " .--. "
+            if (letter == "q" || letter == "Q") document.getElementById('ant').innerHTML += " --.- "
+            if (letter == "r" || letter == "R") document.getElementById('ant').innerHTML += " .-. "
+            if (letter == "s" || letter == "S") document.getElementById('ant').innerHTML += " ... "
+            if (letter == "t" || letter == "T") document.getElementById('ant').innerHTML += " - "
+            if (letter == "u" || letter == "U") document.getElementById('ant').innerHTML += " ..- "
+            if (letter == "v" || letter == "V") document.getElementById('ant').innerHTML += " ...- "
+            if (letter == "w" || letter == "W") document.getElementById('ant').innerHTML += " .-- "
+            if (letter == "x" || letter == "X") document.getElementById('ant').innerHTML += " -..- "
+            if (letter == "y" || letter == "Y") document.getElementById('ant').innerHTML += " -.-- "
+            if (letter == "z" || letter == "Z") document.getElementById('ant').innerHTML += " --.. "
+            if (letter == "0") document.getElementById('ant').innerHTML += " .---- "
+            if (letter == "1") document.getElementById('ant').innerHTML += " ..--- "
+            if (letter == "2") document.getElementById('ant').innerHTML += " ...-- "
+            if (letter == "3") document.getElementById('ant').innerHTML += " ....- "
+            if (letter == "4") document.getElementById('ant').innerHTML += " ..... "
+            if (letter == "5") document.getElementById('ant').innerHTML += " -.... "
+            if (letter == "6") document.getElementById('ant').innerHTML += " --... "
+            if (letter == "7") document.getElementById('ant').innerHTML += " ---.. "
+            if (letter == "8") document.getElementById('ant').innerHTML += " ----. "
+            if (letter == "9") document.getElementById('ant').innerHTML += " ----- "
+            if (letter == " ") document.getElementById('ant').innerHTML += " / "
+            
+        }
+    </script>
+    <span id="ant"></span>
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>
