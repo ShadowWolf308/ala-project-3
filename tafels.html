@@ -75,17 +75,18 @@
         <input type="number" name="num2" required value="0" id="veld2">
         <input type="button" value="Bereken" onclick="myFunction()"id = "bereken1">
     </form>
+    <div class="minnetje"><h1>Tafelreeks</h1></div>
     <script>
         function myFunction() {
-            document.getElementById('antwoord').innerHTML = "";
+            document.getElementById('ant').innerHTML = "";
             var x = rekenmachine.num1.value
             var y = rekenmachine.num2.value
             for (i=1;i<=x;i++) {
-                document.getElementById('antwoord').innerHTML += y*i + '<br>'
+                document.getElementById('ant').innerHTML += y*i + '<br>'
             }
         }
     </script>
-    <span id="antwoord"></span>
+    <span id="ant"></span>
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>
