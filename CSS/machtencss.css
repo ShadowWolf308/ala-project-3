@@ -34,8 +34,8 @@ input[type="number"] {
 }
 
 #ant {
-	left: 12%;
-	width: 15%;
+	left: 5%;
+	width: 25%;
 	height: 7%;
 	background-color: #00000055;
 	color: white;
@@ -46,6 +46,7 @@ input[type="number"] {
 	cursor: pointer;
 	border-radius: 15px;
 }
+
 input[type="button"] {
 	left: 12%;
 	width: 15%;

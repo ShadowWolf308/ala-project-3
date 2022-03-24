@@ -140,3 +140,13 @@ input{
     width: 23vw;
     height: 40vh;
 }
+
+.welkom{
+    width: 50% ;
+    text-align: center;
+}
+
+.rekenmachine{
+    height: 100px;
+    width: 100px;
+}
