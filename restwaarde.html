@@ -25,7 +25,7 @@
     <title></title>
 
     <!--linking a .css page-->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="CSS/restwaardecss.css">
     <link rel="stylesheet" type="text/css" href="css/begin.css">
 </head>
 
@@ -71,11 +71,12 @@
         </ul> 
     </header>
     <form name="rekenmachine"">
-        <input type="number" name="num1" required value="0">
-        <input type="number" name="num2" required value="0">
-        <input type="button" value="bereken" onclick="(rekenmachine.ant.value = rekenmachine.num1.value + '%' + rekenmachine.num2.value) (rekenmachine.ant.value = eval(rekenmachine.ant.value))">
-        <input type="text" readonly name="ant">
+        <input type="number" name="num1" required value="0" id="veld1">
+        <input type="number" name="num2" required value="0" id="veld2">
+        <input type="button" value="bereken" onclick="(rekenmachine.ant.value = rekenmachine.num1.value + '%' + rekenmachine.num2.value) (rekenmachine.ant.value = eval(rekenmachine.ant.value))"id = "bereken1">
+        <input type="text" readonly name="ant" id="ant">
     </form>
+    <div class="minnetje"><h1>Rest</h1></div>
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>
