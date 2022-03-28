@@ -70,7 +70,30 @@
             <li><a href="Angrybirds pagina.html">spel</a></li>
         </ul> 
     </header>
-
+    <form name="rekenmachine">
+        <input type="number" name="num1" value="0" required>
+        <input type="button" value="bereken" onclick="myFunction()">
+        <input type="text" readonly name="ant">
+    </form>
+    <script>
+        function myFunction() {
+            rekenmachine.ant.value = ""
+            for (i=0;i<rekenmachine.num1.value;i++) {
+                if (rekenmachine.num1.value % i == 0) {
+                    if (rekenmachine.ant.value != "") {
+                        rekenmachine.ant.value += "+"
+                    }
+                    rekenmachine.ant.value += i
+                }
+            }
+            if (eval(rekenmachine.ant.value) == rekenmachine.num1.value) {
+                document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is een perfect number"
+            } else {
+                document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is geen perfect number"
+            }
+        }
+    </script>
+    <span id="ant"></span>
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>
