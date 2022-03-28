@@ -112,7 +112,7 @@ a {
 
 footer {
 	background-color: #06482a;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100vw;
