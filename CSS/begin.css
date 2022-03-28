@@ -37,6 +37,7 @@ h1{
     text-align: center;
     display: inline;
     font-family: 'Chalkduster';
+    font-size: 20px;
 }
 
 ul li ul {
@@ -147,9 +148,10 @@ input{
 }
 
 .rekenmachine{
-    height: 60vh;
-    width: 60vw;
+    height: 50vh;
+    width: 40vw;
     position: absolute;
-    left: 43vw;
-    top: 20vh;
+    left: 55vw;
+    top: 25vh;
+    border: white solid 2px;
 }
