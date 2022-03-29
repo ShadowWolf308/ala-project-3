@@ -105,10 +105,10 @@ a{
     float: right;
 }
 .slideshow-container {
-    max-width: 500px;
+    width: 500px;
     position: absolute;
-    top: 50%;
-    right: 50%;
+    top: 25%;
+    right: 32%;
 }
   /* Next & previous buttons */
   .prev, .next {
