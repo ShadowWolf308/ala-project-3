@@ -36,7 +36,7 @@ input[type="number"] {
 #ant {
 	left: 5%;
 	width: 25%;
-	height: 7%;
+	min-height: 15%;
 	background-color: #00000055;
 	color: white;
 	padding: 14px 20px;
@@ -45,6 +45,8 @@ input[type="number"] {
 	border-radius: 4px;
 	cursor: pointer;
 	border-radius: 15px;
+	position: absolute;
+	top: 70%;
 }
 
 input[type="button"] {
@@ -61,10 +63,6 @@ input[type="button"] {
 	border-radius: 15px;
 }
 
-#ant {
-	position: absolute;
-	top: 70%;
-}
 #veld1 {
 	position: absolute;
 	top: 25%;

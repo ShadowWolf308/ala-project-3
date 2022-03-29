@@ -46,6 +46,7 @@ input[type="number"] {
 	border-radius: 15px;
 	position: absolute;
 	top: 70%;
+	min-height: 15%;
 }
 
 input[type="button"] {
