@@ -105,7 +105,8 @@ a{
     float: right;
 }
 .slideshow-container {
-    width: 500px;
+    height: 40%;
+    width: 40%;
     position: absolute;
     top: 25%;
     right: 32%;
