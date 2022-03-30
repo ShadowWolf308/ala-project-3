@@ -25,7 +25,7 @@
     <title></title>
 
     <!--linking a .css page-->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="CSS/fibonaccicss.css">
     <link rel="stylesheet" type="text/css" href="./CSS/begin.css">
 </head>
 
@@ -71,9 +71,10 @@
         </ul> 
     </header>
     <form name="rekenmachine">
-        <input type="number" required value="0" name="num1">
-        <input type="button" value="bereken" onclick="myFunction()">
-    </form>
+        <input type="number" required value="0" name="num1" id="veld1">
+        <input type="button" value="Bereken" onclick="myFunction()"id = "bereken1">
+        <div class="minnetje"><h1>Fibonacci</h1></div>
+        </form>
     <script>
         function myFunction() {
             var d = true
@@ -103,6 +104,11 @@
         }
     </script>
     <span id="antwoord"></span>
+    <h1>
+        <br>Welkom op de Fibonacci pagina.
+        <br>Op deze pagina kan  je de Fibonacci zien en heeft geen limiet op de grote van de berekening.
+        <br>Fibonacci bereken je door elke het getal ervoor staat erbij op te tellen.        
+    </h1>
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>

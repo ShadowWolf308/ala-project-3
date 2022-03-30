@@ -33,7 +33,7 @@ input[type="number"] {
 	border-radius: 25px;
 }
 
-#ant {
+#antwoord {
 	left: 5%;
 	width: 25%;
 	background-color: #00000055;
@@ -62,6 +62,7 @@ input[type="button"] {
 	cursor: pointer;
 	border-radius: 15px;
 }
+
 #veld1 {
 	position: absolute;
 	top: 25%;
@@ -77,6 +78,6 @@ input[type="button"] {
 
 .minnetje {
 	position: absolute;
-	top: 35%;
-	left: 15%;
+	top: 42%;
+	left: 13%;
 }

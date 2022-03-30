@@ -43,6 +43,10 @@ h1 {
 	font-size: 20px;
 }
 
+p{
+	font-family: "Chalkduster";
+}
+
 ul li ul {
 	display: none;
 	position: absolute;
