@@ -73,32 +73,28 @@
 
     <form name="rekenmachine">
         <input type="number" name="num1" required value="0">
-        <input type="button" value="bereken" onclick="myfunction()">
+        <input type="button" value="bereken" onclick="myFunction()">
     </form>
 <script>
-    function myfunction(){
-        document.getElementById('antwoord').innerHTML= "1" + "<br>" ;
-        if (rekenmachine.num1.value == 2) {
-            document.getElementById("antwoord").innerHTML += "2";
-        }else {
-            var y = 2
-            var check = 0
-            var x = 0
-            while (y <= rekenmachine.num1.value) {
-                check = 0
-                for (i=2;i<y;i++) {
-                    x = y % i;
-                    if (x == 0) {
-                        check++
+    function myFunction() {
+            var priem = []
+            var check = true
+            for (i=2;i<rekenmachine.num1.value;i++){
+                check = true
+                for (x=0;x<priem.length;x++){
+                    if(i % priem[x] == 0) {
+                        x=priem.length
+                        check=false
                     }
-                } 
-                if (check == 0) {
-                    document.getElementById('antwoord').innerHTML += y + "<br>";
                 }
-                y++
+                if (check){
+                    priem.push(i)
+                }
+            }
+            for(i=0;i<priem.length;i++) {
+                document.getElementById('antwoord').innerHTML += priem[i] + "<br>"
             }
         }
-    }
 </script>
     <span id="antwoord"></span>
     <footer>
