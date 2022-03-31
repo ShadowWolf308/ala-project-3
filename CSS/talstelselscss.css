@@ -94,19 +94,22 @@ input[type="button"] {
 	position: absolute;
 	top: 35%;
 	left: 15%;
-	width: 50%;
 }
 .Base2 {
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 15%;
-	width: 50%;
 }
 
-.minnetje {
+.vantxt {
 	position: absolute;
-	top: 42%;
-	left: 13%;
+	top: 23%;
+	left: 17%;
+}
+.naartxt {
+	position: absolute;
+	top: 45%;
+	left: 17%;
 }
 
 .tekstStyle {
