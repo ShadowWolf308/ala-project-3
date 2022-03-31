@@ -72,20 +72,28 @@
     </header>
 
     <form name="rekenmachine">
-        <input type="text" required value="0" name="num1">
+        <input type="text" required value="0" name="num1" id="veld1">
+
+        <div class="Base1">
         <select name="vanBase">
             <option value="2">Binair</option>
             <option value="16">Hexa Decimaal</option>
             <option value="8">Octaal</option>
             <option value="10">Decimaal</option>
         </select>
+    </div>
+
+    <div class="Base2">
         <select name="naarBase">
             <option value="2">Binair</option>
             <option value="16">Hexa Decimaal</option>
             <option value="8">Octaal</option>
             <option value="10">Decimaal</option>
         </select>
-        <input type="button" value="bereken" onclick="myFunction()">
+    </div>
+        <div class="minnetje"><h1>Van</h1></div>
+        <div class="berekening2"><h1>Naar</h1></div>
+        <input type="button" value="Bereken" onclick="myFunction()"id = "bereken1">
     </form>
 
     <script>
@@ -104,7 +112,7 @@
 </h1>
 <p>Op deze pagina kan  je de talstelsels zien en heeft geen limiet op de grote van de berekening.<br>
     Een talstelsel heeft een ander rekenstelsels bijvoorbeeld 2 en 16 waardoor 10 voor ons 16 in een ander talstelsel is.</p>
-    
+
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>

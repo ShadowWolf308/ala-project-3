@@ -33,7 +33,21 @@ input[type="number"] {
 	border-radius: 25px;
 }
 
-#antwoord {
+input[type="text"] {
+	width: 25%;
+	left: 5%;
+	height: 4%;
+	background-color: #00000055;
+	color: white;
+	padding: 20px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+#ant {
 	left: 5%;
 	width: 25%;
 	background-color: #00000055;
@@ -74,6 +88,19 @@ input[type="button"] {
 #bereken1 {
 	position: absolute;
 	top: 56%;
+}
+
+.Base1 {
+	position: absolute;
+	top: 35%;
+	left: 15%;
+	width: 50%;
+}
+.Base2 {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	width: 50%;
 }
 
 .minnetje {
