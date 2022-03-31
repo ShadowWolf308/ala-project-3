@@ -19,7 +19,7 @@ html {
 	margin: 0;
 }
 
-input[type="number"] {
+input[type="text"] {
 	width: 25%;
 	left: 5%;
 	height: 4%;
@@ -80,16 +80,4 @@ input[type="button"] {
 	position: absolute;
 	top: 42%;
 	left: 13%;
-}
-
-.tekstStyle {
-	position: absolute;
-	top: 38%;
-	right: 30%;
-}
-
-p{
-	position: absolute;
-	top: 45%;
-	right: 3%;
 }

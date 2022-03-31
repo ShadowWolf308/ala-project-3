@@ -33,7 +33,7 @@ input[type="number"] {
 	border-radius: 25px;
 }
 
-#ant {
+#antwoord {
 	left: 5%;
 	width: 25%;
 	background-color: #00000055;
@@ -80,16 +80,4 @@ input[type="button"] {
 	position: absolute;
 	top: 42%;
 	left: 13%;
-}
-
-.tekstStyle {
-	position: absolute;
-	top: 38%;
-	right: 30%;
-}
-
-p{
-	position: absolute;
-	top: 45%;
-	right: 3%;
 }

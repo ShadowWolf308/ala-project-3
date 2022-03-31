@@ -79,17 +79,5 @@ input[type="button"] {
 .minnetje {
 	position: absolute;
 	top: 42%;
-	left: 13%;
-}
-
-.tekstStyle {
-	position: absolute;
-	top: 38%;
-	right: 30%;
-}
-
-p{
-	position: absolute;
-	top: 45%;
-	right: 3%;
+	left: 12%;
 }
