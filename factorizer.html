@@ -70,9 +70,54 @@
             <li><a href="Angrybirds pagina.html">spel</a></li>
         </ul> 
     </header>
-    <a href="https://www.calculatorsoup.com/calculators/math/prime-factors.php?src=link_hyper" title="Calculator" target="_blank" >Prime Factorization Calculator</a>
-    
-
+    <form name="rekenmachine">
+        <input type="number" name="num1" required value="0" id="veld1">
+        <input type="button" value="Bereken" onclick="myFunction()"id = "bereken1">
+        <input type="text" readonly name="ant">
+    </form>
+    <script>
+        function myFunction() {
+            rekenmachine.ant.value = ""
+            var priem = []
+            var check = true
+            for (i=2;i<rekenmachine.num1.value/2;i++){
+                check = true
+                for (x=0;x<priem.length;x++){
+                    if(i % priem[x] == 0) {
+                        x=priem.length
+                        check=false
+                    }
+                }
+                if (check){
+                    priem.push(i)
+                }
+            }
+            // for(i=0;i<priem.length;i++) {
+            //     y += priem[i] + "<br>"
+            // }
+            var x = rekenmachine.num1.value
+            for(i=0;i<priem.length;i++) {
+                if (rekenmachine.ant.value == ""){
+                    if ((x / priem[i] == Math.floor(x / priem[i]) && x / priem[i] == Math.ceil(x / priem[i]))) {
+                        x = x / priem[i]
+                        rekenmachine.ant.value += priem[i]
+                        i--
+                    }
+                }
+                else if ((x / priem[i] == Math.floor(x / priem[i]) && x / priem[i] == Math.ceil(x / priem[i]))) {
+                    x = x / priem[i]
+                    rekenmachine.ant.value += "*" + priem[i]
+                    i--
+                }
+            }
+            if (rekenmachine.ant.value == ""){
+                rekenmachine.ant.value += x
+            }
+            else if (x != 1) {
+                    rekenmachine.ant.value += "*" + x
+                }
+        }
+    </script>
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>
