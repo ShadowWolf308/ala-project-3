@@ -25,7 +25,7 @@
     <title></title>
 
     <!--linking a .css page-->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="CSS/morsenizercss.css">
     <link rel="stylesheet" type="text/css" href="./CSS/begin.css">
 </head>
 
@@ -71,8 +71,9 @@
         </ul> 
     </header>
     <form name="rekenmachine">
-        <input name="num1" type="text" placeholder="type hier je text in">
-        <input type="button" value="bereken" onclick="myFunction()">
+        <input name="num1" type="text" placeholder="Type hier je text in" id="veld1">
+        <input type="button" value="Bereken" onclick="myFunction()"id = "bereken1">
+        <div class="minnetje"><h1>In Morsecode</h1></div>
     </form>
     <script>
         function myFunction() {
