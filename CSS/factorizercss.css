@@ -33,7 +33,7 @@ input[type="number"] {
 	border-radius: 25px;
 }
 
-#antwoord {
+input[type="text"] {
 	left: 5%;
 	width: 25%;
 	background-color: #00000055;
@@ -79,5 +79,5 @@ input[type="button"] {
 .minnetje {
 	position: absolute;
 	top: 42%;
-	left: 13%;
+	left: 15%;
 }
