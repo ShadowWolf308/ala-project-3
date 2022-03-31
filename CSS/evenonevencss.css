@@ -82,3 +82,15 @@ input[type="button"] {
 	top: 44%;
 	left: 14%;
 }
+
+.tekstStyle {
+	position: absolute;
+	top: 38%;
+	right: 30%;
+}
+
+p{
+	position: absolute;
+	top: 45%;
+	right: 18%;
+}
