@@ -33,7 +33,7 @@ input[type="number"] {
 	border-radius: 25px;
 }
 
-#ant {
+input[type="text"] {
 	left: 5%;
 	width: 25%;
 	background-color: #00000055;
@@ -46,7 +46,23 @@ input[type="number"] {
 	border-radius: 15px;
 	position: absolute;
 	top: 70%;
-	min-height: 15%;
+	min-height: 5%;
+}
+
+#ant {
+	left: 5%;
+	width: 25%;
+	background-color: #00000055;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	border-radius: 15px;
+	position: absolute;
+	top: 83%;
+	min-height: 5%;
 }
 
 input[type="button"] {
@@ -80,4 +96,16 @@ input[type="button"] {
 	position: absolute;
 	top: 42%;
 	left: 13%;
+}
+
+.berekening2 {
+	position: absolute;
+	top: 67%;
+	left: 15%;
+}
+
+.antwoord {
+	position: absolute;
+	top: 80%;
+	left: 11%;
 }
