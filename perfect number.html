@@ -25,7 +25,7 @@
     <title></title>
 
     <!--linking a .css page-->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="CSS/perfecrnmmrcss.css">
     <link rel="stylesheet" type="text/css" href="./CSS/begin.css">
 </head>
 
@@ -71,9 +71,10 @@
         </ul> 
     </header>
     <form name="rekenmachine">
-        <input type="number" name="num1" value="0" required>
-        <input type="button" value="bereken" onclick="myFunction()">
+        <input type="number" name="num1" value="0" required id="veld1">
+        <input type="button" value="bereken" onclick="myFunction()"id = "bereken1">
         <input type="text" readonly name="ant">
+        <div class="minnetje"><h1>Perfect Number</h1></div>
     </form>
     <script>
         function myFunction() {
