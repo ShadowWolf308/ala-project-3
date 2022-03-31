@@ -33,7 +33,7 @@ input[type="number"] {
 	border-radius: 25px;
 }
 
-#ant {
+input[type="text"] {
 	left: 5%;
 	width: 25%;
 	background-color: #00000055;
@@ -78,18 +78,6 @@ input[type="button"] {
 
 .minnetje {
 	position: absolute;
-	top: 35%;
+	top: 42%;
 	left: 15%;
-}
-
-.tekstStyle {
-	position: absolute;
-	top: 38%;
-	right: 30%;
-}
-
-p{
-	position: absolute;
-	top: 45%;
-	right: 2%;
 }

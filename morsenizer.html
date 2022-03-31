@@ -25,20 +25,25 @@
     <title></title>
 
     <!--linking a .css page-->
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="CSS/morsenizercss.css">
     <link rel="stylesheet" type="text/css" href="./CSS/begin.css">
 </head>
 
 <body>
     <!--body data-->
+    <h1 class="tekstStyle">
+        <br>Welkom op de morsenizer pagina.
+    </h1>
+    <p>Op deze pagina kan  je de morsenizer zien en heeft geen limiet op de grote van de berekening en kan tekst naar morsecode zetten.<br>
+        Een morsenizer berekent tekst en getallen om in morsecode in dots en dashes waaruit de getal of tekst het zelfde maar in dots en dashes wordt omgezet.</p>
     <header>
         <!--header data-->
         <img class="logo" src="./images/logo mathe mate 2.png">
         <ul>
             <li><a href="index.html">home</a></li>
             <li><a href="presentatie.html">presentatie</a></li>
+            <div id="simpel"></div>
             <li class="eenvoudig">eenvoudig
-                <div id="simpel"></div>
                 <ul class="dropdown">
                     <li><a href="optellen.html">Optellen</a></li>
                     <li><a href="aftrekken.html">Aftrekken</a></li>
@@ -54,8 +59,8 @@
                     <li><a href="kwadraten.html">Kwadraten</a></li>
                 </ul>
             </li>
+            <div id="complex"></div>
             <li class="complex">complex
-                <div id="complex"></div>
                 <ul class="dropdown">
                     <li><a href="fibonacci.html">Fibonacci</a></li>
                     <li><a href="priemgetallen.html">Priemgetallen</a></li>
@@ -71,8 +76,9 @@
         </ul> 
     </header>
     <form name="rekenmachine">
-        <input name="num1" type="text" placeholder="type hier je text in">
-        <input type="button" value="bereken" onclick="myFunction()">
+        <input name="num1" type="text" placeholder="Type hier je text in" id="veld1">
+        <input type="button" value="Bereken" onclick="myFunction()"id = "bereken1">
+        <div class="minnetje"><h1>In Morsecode</h1></div>
     </form>
     <script>
         function myFunction() {
@@ -124,11 +130,6 @@
         }
     </script>
     <span id="ant"></span>
-    <h1>
-        <br>Welkom op de morsenizer pagina.
-        <br>Op deze pagina kan  je de morsenizer zien en heeft geen limiet op de grote van de berekening en kan tekst naar morsecode zetten.
-        <br>Een morsenizer berekent tekst en getallen om in morsecode in dots en dashes waaruit de getal of tekst het zelfde maar in dots en dashes wordt omgezet.
-    </h1>
     <footer>
         <!--footer data-->
         <h1> disclaimer rekenen is saai </h1>
