@@ -113,7 +113,6 @@ color: white;
 	width: 65px;
 	float: right;
 }
-
 footer {
 	background-color: #06482a;
 	position: fixed;
