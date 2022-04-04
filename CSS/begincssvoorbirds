@@ -95,7 +95,7 @@ ul li ul li {
 }
 
 a {
-	color: white;
+color: white;
 	text-decoration: none;
 	font-family: "Chalkduster";
 }
@@ -164,4 +164,3 @@ input {
 	top: 25vh;
 	border: white solid 2px;
 }
- 
