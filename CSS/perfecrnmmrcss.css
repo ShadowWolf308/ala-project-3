@@ -117,6 +117,7 @@ input[type="button"] {
 
 p {
 	position: absolute;
+	width: 50%;
 	top: 45%;
-	right: 3%;
+	right: 12%;
 }
