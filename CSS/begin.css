@@ -162,6 +162,9 @@ input {
 .welkom {
 	width: 50%;
 	text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 45vh;
 }
 
 .rekenmachine {
@@ -173,3 +176,10 @@ input {
 	border: white solid 2px;
 }
  
+h2{
+	color: white;
+	text-align: center;
+	display: inline;
+	font-family: "Chalkduster";
+	font-size: 80px;
+}
