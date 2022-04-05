@@ -185,7 +185,7 @@ input{
     font-family: "chalkduster";
 }
 
-#simpel{
+#simpel {
 	display: none;
 	position: absolute;
 	top: 13vh;
@@ -194,17 +194,19 @@ input{
 	height: 45vh;
 	background-color: #06482a;
 	border-radius: 15px;
+	border: white solid 2px;
 }
 
-#complex{
+#complex {
 	display: none;
 	position: absolute;
 	top: 13vh;
-	left: 56vw;
-	width: 23%;
+	left: 55vw;
+	width: 24%;
 	height: 30vh;
 	background-color: #06482a;
 	border-radius: 15px;
+	border: white solid 2px;
 }
 
 .welkom{
