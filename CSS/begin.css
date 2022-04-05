@@ -62,11 +62,11 @@ ul li:hover #complex {
 }
 
 a:hover {
-	color: blue;
+	color: lightgreen;
   }
 
 li:hover{
-	color: blue;
+	color: lightgreen;
 }
 
 ul {

@@ -61,6 +61,7 @@ input[type="text"] {
 	position: absolute;
 	top: 70%;
 	min-height: 15%;
+	font-family: 'chalkduster';
 }
 
 input[type="button"] {
@@ -123,4 +124,16 @@ p {
 	width: 50%;
 	top: 45%;
 	right: 12%;
+}
+
+select {
+	background-color: black;
+	color: white;
+	border-radius: 25px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+select option {
+	color: white;
 }
