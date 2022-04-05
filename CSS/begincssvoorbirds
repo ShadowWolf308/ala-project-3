@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "Chalkduster";
+	src: url("../font/bd9805cba4fdbd10e6f9d097dab9225f.eot");
+	src: url("../font/bd9805cba4fdbd10e6f9d097dab9225f.eot?#iefix")
+			format("embedded-opentype"),
+		url("../font/bd9805cba4fdbd10e6f9d097dab9225f.woff2") format("woff2"),
+		url("../font/bd9805cba4fdbd10e6f9d097dab9225f.woff") format("woff"),
+		url("../font/bd9805cba4fdbd10e6f9d097dab9225f.ttf") format("truetype"),
+		url("../font/bd9805cba4fdbd10e6f9d097dab9225f.svg#Chalkduster")
+			format("svg");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-image: url("../images/green-school-boards-500x500.jpeg");
+	background-repeat: repeat;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.eenvoudig {
+	font-family: "Chalkduster";
+}
+
+.logo {
+	width: 10%;
+	height: 10%;
+	float: left;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	display: inline;
+	font-family: "Chalkduster";
+	font-size: 20px;
+}
+
+p{
+	font-family: "Chalkduster";
+}
+
+ul li ul {
+	display: none;
+	position: absolute;
+	left: 39vw;
+	font-family: "Chalkduster";
+}
+
+ul li:hover ul,
+ul li:hover #simpel,
+ul li:hover #complex {
+	display: block;
+}
+
+ul {
+	color: white;
+	display: flex;
+	width: 70%;
+	font-family: "Chalkduster";
+}
+
+li {
+	list-style: none;
+	color: white;
+	float: left;
+	height: 2%;
+	width: 30%;
+	text-align: center;
+	padding: 6%;
+	margin: 0%;
+	font-size: 30px;
+	font-family: "Chalkduster_400";
+}
+
+ul li ul li {
+	margin: 3%;
+	font-size: 20px;
+	text-align: left;
+	font-family: "Chalkduster";
+}
+
+.dropdown {
+	display: none;
+	width: 30vw;
+	height: 5vh;
+	font-family: "Chalkduster";
+}
+
+a {
+color: white;
+	text-decoration: none;
+	font-family: "Chalkduster";
+}
+
+.complex {
+	font-family: "Chalkduster";
+}
+
+.complex .dropdown {
+	font-family: "Chalkduster";
+	left: 54vw;
+}
+
+.image {
+	width: 65px;
+	float: right;
+}
+footer {
+	background-color: #06482a;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100vw;
+	text-align: center;
+}
+
+footer h1 {
+	position: absolute;
+	left: 35vw;
+	top: 10px;
+}
+
+input {
+	font-family: "chalkduster";
+}
+
+#simpel {
+	display: none;
+	position: absolute;
+	top: 8vh;
+	left: 40vw;
+	width: 22vw;
+	height: 60vh;
+}
+
+#complex {
+	display: none;
+	position: absolute;
+	top: 8vh;
+	left: 55vw;
+	width: 23vw;
+	height: 40vh;
+}
+
+.welkom {
+	width: 50%;
+	text-align: center;
+}
+
+.rekenmachine {
+	height: 50vh;
+	width: 40vw;
+	position: absolute;
+	left: 55vw;
+	top: 25vh;
+	border: white solid 2px;
+}
