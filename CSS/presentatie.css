@@ -183,21 +183,25 @@ input{
 }
 
 #simpel{
-    display: none;
-    position: absolute;
-    top: 8vh;
-    left: 40vw;
-    width: 22vw;
-    height: 60vh;
+	display: none;
+	position: absolute;
+	top: 13vh;
+	left: 40vw;
+	width: 22vw;
+	height: 45vh;
+	background-color: #06482a;
+	border-radius: 15px;
 }
 
 #complex{
-    display: none;
-    position: absolute;
-    top: 8vh;
-    left: 55vw;
-    width: 23vw;
-    height: 40vh;
+	display: none;
+	position: absolute;
+	top: 13vh;
+	left: 56vw;
+	width: 23%;
+	height: 30vh;
+	background-color: #06482a;
+	border-radius: 15px;
 }
 
 .welkom{
