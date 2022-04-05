@@ -65,6 +65,10 @@ a:hover {
 	color: blue;
   }
 
+li:hover{
+	color: blue;
+}
+
 ul {
 	color: white;
 	display: flex;
