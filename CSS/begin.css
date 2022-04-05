@@ -58,7 +58,12 @@ ul li:hover ul,
 ul li:hover #simpel,
 ul li:hover #complex {
 	display: block;
+	
 }
+
+a:hover {
+	color: blue;
+  }
 
 ul {
 	color: white;

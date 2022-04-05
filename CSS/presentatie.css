@@ -77,6 +77,9 @@ ul li ul li {
     text-align: left;
     font-family: 'Chalkduster';
 }
+a:hover {
+	color: blue;
+  }
 
 .dropdown{
     display: none;
