@@ -260,7 +260,7 @@ var GameLayer = cc.Layer.extend({
             backMenu = new CMenu(this.getTexture("menu_back"));
         backMenu.setPosition(cc.p(margin, winSize.height - margin));
         backMenu.onClick(function () {
-            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            window.location.href = "https://www.youtube.com/watch?v=1po83r0tqEk";
         });
         this.addChild(backMenu);
         this.menus.push(backMenu);
