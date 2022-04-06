@@ -78,8 +78,12 @@ ul li ul li {
     font-family: 'Chalkduster';
 }
 a:hover {
-	color: blue;
+	color: lightgreen;
   }
+
+li:hover{
+	color: lightgreen;
+}
 
 .dropdown{
     display: none;
