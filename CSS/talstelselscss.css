@@ -94,12 +94,12 @@ input[type="button"] {
 .Base1 {
 	position: absolute;
 	top: 35%;
-	left: 15%;
+	left: 13%;
 }
 .Base2 {
 	position: absolute;
 	top: 50%;
-	left: 15%;
+	left: 13%;
 }
 
 .vantxt {
@@ -127,11 +127,12 @@ p {
 }
 
 select {
-	background-color: black;
+	background-color: #00000055;
 	color: white;
 	border-radius: 25px;
 	width: 100px;
 	height: 30px;
+	width: 150%;
 	text-align: center;
 }
 select option {
