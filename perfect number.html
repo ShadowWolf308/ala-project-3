@@ -32,11 +32,11 @@
 <body>
     <!--body data-->
     <h1 class="tekstStyle">
-        <br>Welkom op de perfectnumber pagina.
+        <br>Welkom op de perfect number pagina.
     </h1>
-    <p>Op deze pagina kan  je de perfectnumber zien en kan niet te groot getal zijn anders laad de pagina niet meer.<br>
-        Een perfectnumber bereken je door alle deelbare cijfers bij elkaar optelt en op het zelfde getal uit komt als de cijfer wat u heeft ingetypt.<br>
-        Bijvoorbeeld 6 kunt u delen door 1,2 en 3 en 1+2+3 is 6 waardoor het dus een perfectnumber is.</p> 
+    <p>Op deze pagina kan  je de perfect number zien en kan niet te groot getal zijn anders laad de pagina niet meer.<br>
+        Een perfect number bereken je door alle deelbare cijfers bij elkaar optelt en op het zelfde getal uit komt als de cijfer wat u heeft ingetypt.<br>
+        Bijvoorbeeld 6 kunt u delen door 1,2 en 3 en 1+2+3 is 6 waardoor het dus een perfect number is.</p> 
     <header>
         <!--header data-->
         <img class="logo" src="./images/logo mathe mate 2.png">
@@ -100,6 +100,8 @@
             } else {
                 document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is geen perfect number"
             }
+            var y = eval(rekenmachine.ant.value)
+            rekenmachine.ant.value += "=" + y
         }
     </script>
     <span id="ant"></span>
