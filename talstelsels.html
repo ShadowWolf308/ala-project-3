@@ -81,19 +81,19 @@
 
         <div class="Base1">
         <select name="vanBase">
-            <option value="2">Binair</option>
-            <option value="16">Hexa Decimaal</option>
-            <option value="8">Octaal</option>
-            <option value="10">Decimaal</option>
+            <option value="16" id="hex2">Hexa Decimaal</option>
+            <option value="2" id="bin2">Binair</option>
+            <option value="8" id="oct2">Octaal</option>
+            <option value="10" id="dec2">Decimaal</option>
         </select>
     </div>
 
     <div class="Base2">
         <select name="naarBase" id="select">
-            <option value="2">Binair</option>
-            <option value="16">Hexa Decimaal</option>
-            <option value="8">Octaal</option>
-            <option value="10">Decimaal</option>
+            <option value="2" id="bin1">Binair</option>
+            <option value="16" id="hex1">Hexa Decimaal</option>
+            <option value="8" id="oct1">Octaal</option>
+            <option value="10" id="dec1">Decimaal</option>
         </select>
     </div>
         <div class="vantxt"><h1>Van</h1></div>
@@ -109,6 +109,25 @@
             let z = y.toString(x)
             document.getElementById('ant').innerHTML = z
         }
+        function valueCheck() {
+            if (rekenmachine.vanBase.value == 2) {document.getElementById("bin1").style.display = "none"}
+            else {document.getElementById("bin1").style.display = "block"}
+            if (rekenmachine.naarBase.value == 2) {document.getElementById("bin2").style.display = "none"}
+            else {document.getElementById("bin2").style.display = "block"}
+            if (rekenmachine.vanBase.value == 10) {document.getElementById("dec1").style.display = "none"}
+            else {document.getElementById("dec1").style.display = "block"}
+            if (rekenmachine.naarBase.value == 10) {document.getElementById("dec2").style.display = "none"}
+            else {document.getElementById("dec2").style.display = "block"}
+            if (rekenmachine.vanBase.value == 8) {document.getElementById("oct1").style.display = "none"}
+            else {document.getElementById("oct1").style.display = "block"}
+            if (rekenmachine.naarBase.value == 8) {document.getElementById("oct2").style.display = "none"}
+            else {document.getElementById("oct2").style.display = "block"}
+            if (rekenmachine.vanBase.value == 16) {document.getElementById("hex1").style.display = "none"}
+            else {document.getElementById("hex1").style.display = "block"}
+            if (rekenmachine.naarBase.value == 16) {document.getElementById("hex2").style.display = "none"}
+            else {document.getElementById("hex2").style.display = "block"}
+        }
+        setInterval(valueCheck,1)
     </script>
     <span id="ant"></span>
 
