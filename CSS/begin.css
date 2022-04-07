@@ -118,7 +118,7 @@ a {
 }
 
 .image {
-	width: 65px;
+	width: 50px;
 	float: right;
 }
 
@@ -133,8 +133,9 @@ footer {
 
 footer h1 {
 	position: absolute;
-	left: 35vw;
+	left: 26vw;
 	top: 10px;
+	font-size: small;
 }
 
 input {

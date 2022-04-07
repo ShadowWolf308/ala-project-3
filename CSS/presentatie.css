@@ -56,6 +56,7 @@ ul{
     display: flex;
     width: 70%;
     font-family: 'Chalkduster';
+    top: 12%;
 }
 
 li{
@@ -77,6 +78,7 @@ ul li ul li {
     text-align: left;
     font-family: 'Chalkduster';
 }
+
 a:hover {
 	color: lightgreen;
   }
@@ -108,7 +110,7 @@ a{
 }
 
 .image {
-    width: 65px;
+    width: 50px;
     float: right;
 }
 .slideshow-container {
@@ -181,8 +183,9 @@ footer{
 
 footer h1{
     position: absolute;
-    left: 35vw;
+    left: 26vw;
     top: 10px;
+    font-size: small;
 }
 
 input{
