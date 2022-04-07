@@ -98,21 +98,33 @@
                     rekenmachine.ant.value += i
                 }
             }
+            if (rekenmachine.num1.value == 1 || rekenmachine.num1.value == 0) {
+                        rekenmachine.ant.value = rekenmachine.num1.value + " kan nergens door worden gedeeld (qua hele getallen)"
+            }
             if (rekenmachine.num1.value >= 0){
-                if (eval(rekenmachine.ant.value) == rekenmachine.num1.value) {
-                    if (rekenmachine.num1.value == "-0"){
-                        document.getElementById('ant').innerHTML = "0 is een perfect number"
+                if (rekenmachine.num1.value == 1 || rekenmachine.num1.value == 0 || rekenmachine.num1.value == "" || rekenmachine.num1.value == "-0") {
+                    if (rekenmachine.num1.value == 1){
+                        document.getElementById('ant').innerHTML = "1 is geen perfect number"
                     }
-                    else{
+                    else if (rekenmachine.num1.value == "-0"){
+                        document.getElementById('ant').innerHTML = "0 is geen perfect number"
+                    }
+                    else if (rekenmachine.num1.value == "") {
+                        document.getElementById('ant').innerHTML = "0 is geen perfect number"
+                    }
+                    else if (rekenmachine.num1.value == 0) {
+                        document.getElementById('ant').innerHTML = "0 is geen perfect number"
+                    }
+                }
+                else if (eval(rekenmachine.ant.value) == rekenmachine.num1.value) {
                         document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is een perfect number"
-                    }
                 } else {
                     document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is geen perfect number"
                 }
             } else {
                 document.getElementById('ant').innerHTML = rekenmachine.num1.value + " word niet naar gekeken of het een perfect number is of niet want negatieve getallen worden niet ondersteunt"
             }
-            if (rekenmachine.num1.value >= 0){
+            if (rekenmachine.num1.value >= 2){
                 var y = eval(rekenmachine.ant.value)
                 rekenmachine.ant.value += "=" + y
             }
