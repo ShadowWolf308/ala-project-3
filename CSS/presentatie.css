@@ -183,8 +183,9 @@ footer{
 
 footer h1{
     position: absolute;
-    left: 35vw;
+    left: 26vw;
     top: 10px;
+    font-size: small;
 }
 
 input{
