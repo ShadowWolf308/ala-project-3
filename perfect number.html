@@ -100,7 +100,12 @@
             }
             if (rekenmachine.num1.value >= 0){
                 if (eval(rekenmachine.ant.value) == rekenmachine.num1.value) {
-                    document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is een perfect number"
+                    if (rekenmachine.num1.value == "-0"){
+                        document.getElementById('ant').innerHTML = "0 is een perfect number"
+                    }
+                    else{
+                        document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is een perfect number"
+                    }
                 } else {
                     document.getElementById('ant').innerHTML = rekenmachine.num1.value + " is geen perfect number"
                 }
